@@ -1,3 +1,4 @@
+unzip genFiles.zip
 current=$(pwd)
 cd 
 home=$(pwd)
