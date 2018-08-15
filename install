@@ -11,4 +11,4 @@ sudo cp newgen /bin
 sudo cp -r genFiles $home
 echo ****To remove the unnecessary files: 
 echo cd ..
-echo rm -r gengen
+echo sudo rm -r gengen
