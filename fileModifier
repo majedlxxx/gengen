@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+import sys
+home=sys.argv[1]+"/genFiles/"
+gengen=open("gengen","r").read()
+gengen=gengen.replace("#gengendirdir",'"'+home+'"')
+open("1gengen","w").write(gengen)
